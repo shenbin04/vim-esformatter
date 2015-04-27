@@ -42,6 +42,18 @@ nnoremap <silent> <leader>es :Esformatter<CR>
 vnoremap <silent> <leader>es :EsformatterVisual<CR>
 ```
 
+To specify a style preset in `.vimrc` (for example, jQuery):
+
+```vim
+let g:esformatter_preset = 'jQuery'
+```
+
+To specify an `esformatter` configuration file:
+
+```vim
+let g:esformatter_config = '/path/to/config.json'
+```
+
 
 ## License
 
